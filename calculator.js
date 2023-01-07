@@ -1,5 +1,9 @@
 const calculator = (() => {
-    const add = (a, b) => { return a + b; }
+    const add = (a, b) => { 
+        if((Math.trunc(a) !== a) || (Math.trunc(b) !== b)){
+            
+        } 
+        return a + b; }
 
     const subtract = (a, b) => { return a - b; }
 
